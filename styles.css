@@ -1,0 +1,99 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    font: "Roboto", sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5px;
+    flex: 5;
+}
+.introduction .header{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.introduction .header .heading{
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9faf8;
+    font-family: "Roboto", sans-serif;
+}
+.introduction .header .links{
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: "Roboto", sans-serif;
+}
+.link{
+    color: #e5e7eb;
+}
+.greetings{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 200px;
+    justify-content: space-between;
+}
+.greetings .greeting{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+.greetings .image{
+    display: flex;
+    width: 50%;
+}
+.greetings .greeting .cristiano{
+    display: flex;
+    flex: 2;
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+}
+.greetings .greeting .sui{
+    display: flex;
+    flex: 1;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.greetings .greeting button{
+    display: flex;
+    flex: 1;
+    color: #f9faf8 ;
+}
+button{
+    display: flex;
+    background-color: #3882f6;
+    width: 80px;
+    height: 1px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.info .title{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.info .images{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
