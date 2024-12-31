@@ -84,6 +84,7 @@ button{
 .info{
     display: flex;
     flex-direction: column;
+    flex: 5;
 }
 .info .title{
     display: flex;
@@ -91,9 +92,115 @@ button{
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    margin: 30px;
 }
 .info .images{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.messi{
+    display: flex;
+    height: 250px;
+    width: 100%;
+    border: 3px solid #1f67cc;
+}
+.ney{
+    display: flex;
+    height: 250px;
+    width: 100%;
+    border: 3px solid #1f67cc;
+}
+.zidane{
+    display: flex;
+    height: 250px;
+    border: 3px solid #1f67cc;
+    width: 100%;
+}
+.kurt{
+    display: flex;
+    height: 250px;
+    width: 100%;
+    border: 3px solid #1f67cc;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: lightslategray;
+    margin: 30px;
+    width: 250px;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+}
+.quote{
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+.jose{
+    display: flex;
+    justify-content: flex-end;
+}
+.text{
+    display: flex;
+    align-items: flex-end;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: light italic;
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;;
+}
+.subscribe .text{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    justify-content: flex-start;
+    align-items: center;
+}
+.container{
+    display: flex;
+    height: 150px;
+    width: 700px;
+    background-color: #3a7fe0;
+    padding-top: 25px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.button button{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.end{
+    display: flex;
+    background-color: #4d5c6f;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
 }
